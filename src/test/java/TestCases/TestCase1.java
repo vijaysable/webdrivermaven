@@ -26,6 +26,7 @@ public class TestCase1 {
 		driver.get("http://gmail.com");
 		driver.findElement(By.id("identifierId")).sendKeys("asdcsadc");
 		driver.findElement(By.id("identifierNext")).click();
+		System.out.println(driver.getTitle());
 		/*
 		 * added comments
 		 * 
